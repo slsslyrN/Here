@@ -1,0 +1,7 @@
+{
+  "name": "Here",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

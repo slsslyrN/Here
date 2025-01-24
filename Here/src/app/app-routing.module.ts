@@ -22,6 +22,10 @@ const routes: Routes = [
     path: 'qr-code',
     loadChildren: () => import('./qr-code/qr-code.module').then( m => m.QrCodePageModule)
   },
+  {
+    path: 'camara',
+    loadChildren: () => import('./camara/camara.module').then( m => m.CamaraPageModule)
+  },
 
 ];
 

@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>Escanee el código Qr para quedar presente</ion-title>
+    <ion-title>Escanee el código QR</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -10,6 +10,11 @@
       <ion-title size="large"></ion-title>
     </ion-toolbar>
   </ion-header>
+  <div>
+    <div>
+      <img src="assets/camera.png" alt="camera" class="login-image">
+    </div>
+  </div>
   <ion-card>
     <ion-card-header>
       <ion-card-title>{{ clase }}</ion-card-title>
@@ -20,8 +25,4 @@
       {{ horario }}
     </ion-card-content>
   </ion-card>
-
-  <div>
-    <img src="assets/qr-code.png" alt="qr code" class="login-image">
-  </div>
 </ion-content>

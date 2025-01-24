@@ -15,6 +15,6 @@ import { HomeDocentePage } from './home-docente.page';
     IonicModule,
     HomeDocentePageRoutingModule
   ],
-  declarations: [HomeDocentePage]
+  declarations: []
 })
 export class HomeDocentePageModule {}

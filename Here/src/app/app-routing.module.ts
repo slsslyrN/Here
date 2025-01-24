@@ -18,7 +18,11 @@ const routes: Routes = [
   {
     path: 'home-estudiante',
     loadChildren: () => import('./home-estudiante/home-estudiante.module').then( m => m.HomeEstudiantePageModule)
+  },  {
+    path: 'qr-code',
+    loadChildren: () => import('./qr-code/qr-code.module').then( m => m.QrCodePageModule)
   },
+
 ];
 
 @NgModule({
